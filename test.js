@@ -13,5 +13,7 @@ QUnit.test( "hello test", function( assert ) {
    assert.ok( "5*6 + 9*5" == 75, "combination of functions 1" );
    assert.ok( "(5*6 + 9*5)/5" == 15, "combination of functions 2" );
    assert.ok( "(5*9 - 5*6)/5" == 3, "combination of functions 4" );
+   assert.ok(add(3,4,5,6)== 18, "add with multi params" );
+
 
 });
